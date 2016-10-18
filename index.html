@@ -1,8 +1,293 @@
-<html>
-	<head>
-	</head>
-	<body>
-		<h3>This is Deans github page</h3>
-		<p>Dean was here</p>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="iOS Developer, Mobile Developer, Wellington">
+  
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="scripts/scroll.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="65">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--a class="navbar-brand" href="#myPage">Logo</a-->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#employment">Employment</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="dmtop"><i class="fa fa-angle-up"></i></div>
+
+<div id="home" class="jumbotron text-center">
+  <img src="images/DeanW.jpg" alt="Dean Woodward" class="img-circle grayscale-filter">
+  <h1>Dean Woodward</h1>
+  <p>iOS Developer</p>
+  <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small><br/>
+  <small>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
+</div>
+
+<!-- Skillls -->
+<section id="skills" class="container text-center">
+  <h2>Skills</h2>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <i class="fa fa-mobile fa-6x icon" aria-hidden="true"></i>
+      <h4>iOS Development</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa fa-code fa-5x icon" aria-hidden="true"></i>
+      <h4>Web</h4>
+      <p>HTML, CSS, JQuery, Bootstrap. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa fa-pencil fa-5x icon" aria-hidden="true"></i>
+      <h4>Design</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="fa fa-desktop fa-5x icon"></span>
+      <h4>Tool Chains</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa fa-cogs fa-5x icon" aria-hidden="true"></i>
+      <h4>Version Control</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="fa fa-wrench fa-5x icon"></span>
+      <h4 style="color:#303030;">Something Else</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section class="bg-grey">
+  <div id="portfolio" class="container bg-grey">
+    <h2 class ="text-center">Portfolio</h2>
+    <div class="row text-center scale-anim"> 
+      <div class="col-sm-3">
+        <div class="thumbnail hover-shadow" data-toggle="modal" data-target="#myModal">
+          <img src="images/junction/hutt.jpeg" alt="Junction" width="400" height="300">
+        </div>
+        <h4>Junction</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="https://itunes.apple.com/nz/app/junction-mobile/id1065381408?mt=8" target="_blank">
+          <img src="images/download-on-the-app-store.svg" alt="Download on the App-Store" title="Download on the App-Store" class="portfolio-item-download-link hover-shadow"/>
+        </a>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail hover-shadow" data-toggle="modal" data-target="#myModal">
+          <img src="images/qcard/login.jpeg" alt="Q-Card" width="400" height="300">
+        </div>
+        <h4>Q-Card</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="https://itunes.apple.com/nz/app/junction-mobile/id1065381408?mt=8" target="_blank">
+          <img src="images/download-on-the-app-store.svg" alt="Download on the App-Store" title="Download on the App-Store" class="portfolio-item-download-link hover-shadow"/>
+        </a>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail hover-shadow" data-toggle="modal" data-target="#myModal">
+          <img src="images/pastel-planner/calendar.jpeg" alt="Pastel Planner" width="400" height="300">
+        </div>
+        <h4>Pastel Planner</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="https://itunes.apple.com/nz/app/pastel-planner/id1069141657?mt=8" target="_blank">
+          <img src="images/download-on-the-app-store.svg" alt="Download on the App-Store" title="Download on the App-Store" class="portfolio-item-download-link hover-shadow"/>
+        </a>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail hover-shadow" data-toggle="modal" data-target="#myModal">
+          <img src="images/hows-it-going/how-i-was.jpeg" alt="How's it Going?" width="400" height="300">
+        </div>
+        <h4>How's it Going?</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="https://itunes.apple.com/nz/app/hows-it-going/id885669136?ls=1&mt=8" target="_blank">
+          <img src="images/download-on-the-app-store.svg" alt="Download on the App-Store" title="Download on the App-Store" class="portfolio-item-download-link hover-shadow"/>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Junction</h4>
+        </div>
+        <div class="modal-body">
+          <img src="images/junction/hutt.jpeg" alt="Junction">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!--div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div-->
+      
+    </div>
+  </div>
+</section>
+
+<!-- Employment -->
+<section>
+  <div id="employment" class="container text-center">
+    <h2>Employment</h2>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <h4>Datacom</h4>
+        <h6>December 2012 - June 2016</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-sm-4">
+        <h4>Victoria University</h4>
+        <h6>2011 - 2012</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-sm-4">
+        <h4>Theatre Lamp & Lighting Supplies</h4>
+        <h6>2008 - 2010 ??</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section class="bg-grey">
+  <div id="education" class="container text-center">
+    <h2>Education</h2>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <i class="fa fa-desktop fa-5x icon" aria-hidden="true"></i>
+        <h4>Bachelor of Computer Science</h4>
+        <h6>Victoria University 2010 - 2012</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fa fa-lightbulb-o fa-5x icon" aria-hidden="true"></i>
+        <h4>Certificate in Electrical Engineering</h4>
+        <h6>Wellington Polytechnic 1998 - 1999</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fa fa-pencil logo fa-5x icon" aria-hidden="true"></i>
+        <h4>Diploma in Fine Art</h4>
+        <h6>Taranaki Polytechnic 1992 - 1995</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- about me -->
+<section id="about-me" class="container text-center">
+  <h2>About Me</h2>
+  <div class="row">
+    <div class="col-sm-2">
+      <span class="fa-stack fa-4x icon scale-anim">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-info fa-stack-1x"></i>
+      </span>
+    </div>
+    <div class="col-sm-10">
+      <p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact me -->
+<section id="contact-me" class="bg-grey">
+  <div class="container">
+    <h2>Contact Me</h2>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <i class="fa fa-phone fa-2x" aria-hidden="true"></i><span class="contact-me-text">+64 27 5519 888</span>
+      </div>
+      <div class="col-sm-4">
+        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><span class="contact-me-text">bakeddean@gmail.com</span>
+      </div>
+      <div class="col-sm-4">
+        <a href="#" id="download-cv">
+          <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i><span class="contact-me-text">Download CV</span>
+        </a>
+      </div>
+    </div>
+
+    <br/>
+
+    <h4>Send me a message</h4>
+    
+
+    <form action="mailto:bakeddean@gmail.com" method="post" enctype="text/plain">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required></textarea><br>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <input type="submit" value="Send" class="button pull-right">
+              <input type="reset" value="Reset" class="button pull-right">
+            </div>
+          </div>
+        </div>
+      </div>
+  </form>
+
+    </div>
+  </section>
+
+<footer class="container-fluid">
+</footer>
+
+</body>
 </html>
