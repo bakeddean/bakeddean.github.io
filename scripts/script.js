@@ -21,6 +21,7 @@ $(document).ready(function(){
     } // End if
   });
   
+  // Scrolling animations.
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
@@ -30,9 +31,7 @@ $(document).ready(function(){
           $(this).addClass("slide-up");
         }
     });
-  });
 
-  $(window).scroll(function() {
     $(".scale-anim").each(function(){
       var pos = $(this).offset().top;
 
@@ -58,6 +57,7 @@ $(document).ready(function(){
 
 // Set the modal carousel images on click.
 $('div[data-target="#myModal"]').click(function(){
+
     // Delete existing html.
     $('.carousel-inner').html("");
 
@@ -77,6 +77,7 @@ $('div[data-target="#myModal"]').click(function(){
 
     // Make sure we start at index 0.
     $('.carousel').carousel(0);
+    
     return true;
   });
 
