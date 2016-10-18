@@ -27,7 +27,7 @@ $(document).ready(function(){
 
       var winTop = $(window).scrollTop();
         if (pos < winTop + 800) {
-          $(this).addClass("slide");
+          $(this).addClass("slide-up");
         }
     });
   });
@@ -56,11 +56,28 @@ $(document).ready(function(){
       return false;
   });
 
-  // Set the modal carousel images on click.
-  $('div[data-target="#myModal"]').click(function(){
-      var image = $(this).find('img').attr('src');;
-      $('.modal-body img').attr('src', image);
-      return true;
+// Set the modal carousel images on click.
+$('div[data-target="#myModal"]').click(function(){
+    // Delete existing html.
+    $('.carousel-inner').html("");
+
+    // Add images.
+    var images = $(this).find('img');
+    images.each(function(index){
+      var imageSource = $(this).attr('src');
+      $('.carousel-inner').append(
+          '<div class="item">' +
+              '<img src="' + imageSource + '"' + 'alt="...">' +
+            '</div>'
+      );
+    });
+
+    // First item active.
+    $('.carousel-inner .item').first().addClass('active');
+
+    // Make sure we start at index 0.
+    $('.carousel').carousel(0);
+    return true;
   });
 
 })
