@@ -89,6 +89,10 @@ section {
 /* Icons                                                                     */
 /*---------------------------------------------------------------------------*/
 
+.fa-2x {
+  vertical-align: top;
+}
+
 .fa-6x {
   font-size: 6em;
 }
@@ -194,13 +198,14 @@ section {
   margin-left: 15px;
 }
 
-#download-cv {
+.contact-link {
   text-decoration: none;
   color: #818181;
 }
 
-#download-cv:hover {
+.contact-link:hover {
   color: #00aae5 !important;
+  text-decoration: none;
 }
 
 .form-control {
