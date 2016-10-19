@@ -15,7 +15,7 @@ h4 {
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .container-fluid {
@@ -26,6 +26,12 @@ section {
     padding-top: 25px;
     padding-bottom: 50px;
 }
+
+/*
+#employment p, #education p {
+  text-align: justify;
+}
+*/
 
 /*---------------------------------------------------------------------------*/
 /* Navbar                                                                    */
@@ -187,6 +193,11 @@ section {
 .carousel-control .slide-button:hover {
     opacity: 1.0;
     box-shadow: 2px 8px 8px 0 rgba(0,0,0,0.2),2px 9px 10px 0 rgba(0,0,0,0.19);
+}
+
+#portfolio p {
+  font-size: 0.9em;
+  text-align: justify;
 }
 
 /*---------------------------------------------------------------------------*/
