@@ -129,6 +129,10 @@ section {
 .portfolio-item-download-link {
   border-radius: 6px;
   transition: box-shadow .3s ease-in-out;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
 }
 
 .modal-content {
@@ -198,6 +202,10 @@ section {
 #portfolio p {
   font-size: 0.9em;
   text-align: justify;
+}
+
+#portfolio .col-sm-3 {
+  height: 780px;
 }
 
 /*---------------------------------------------------------------------------*/
