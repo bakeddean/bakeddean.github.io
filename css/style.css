@@ -130,9 +130,22 @@ section {
   border-radius: 6px;
   transition: box-shadow .3s ease-in-out;
   display: inline-block;
-  position: absolute;
-  bottom: 0;
-  left: 25%;
+}
+
+a[href="https://itunes.apple.com/nz/app/junction-mobile/id1065381408?mt=8"] {
+  margin: 48px 0 22px;
+}
+
+a[href="https://itunes.apple.com/nz/app/q-card-mobile/id937958077?mt=8"] {
+  margin: 24px 0 22px;
+}
+
+a[href="https://itunes.apple.com/nz/app/pastel-planner/id1069141657?mt=8"] {
+  margin: 0 0 22px;
+}
+
+a[href="https://itunes.apple.com/nz/app/hows-it-going/id885669136?ls=1&mt=8"] {
+  margin: 48px 0 22px;
 }
 
 .modal-content {
@@ -190,7 +203,6 @@ section {
     transition: all .7s ease-in-out;*/
     transition: ease-in-out box-shadow .3s;
     overflow: auto;
-    
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
@@ -202,10 +214,6 @@ section {
 #portfolio p {
   font-size: 0.9em;
   text-align: justify;
-}
-
-#portfolio .col-sm-3 {
-  height: 780px;
 }
 
 /*---------------------------------------------------------------------------*/
