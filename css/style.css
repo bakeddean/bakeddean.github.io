@@ -27,11 +27,9 @@ section {
     padding-bottom: 50px;
 }
 
-/*
-#employment p, #education p {
-  text-align: justify;
+.hidden {
+  display: none;
 }
-*/
 
 /*---------------------------------------------------------------------------*/
 /* Navbar                                                                    */
@@ -148,6 +146,10 @@ a[href="https://itunes.apple.com/nz/app/hows-it-going/id885669136?ls=1&mt=8"] {
   margin: 48px 0 22px;
 }
 
+.modal {
+  z-index: 9999;
+}
+
 .modal-content {
   top: 40px;
   border-radius: 0;
@@ -161,10 +163,6 @@ a[href="https://itunes.apple.com/nz/app/hows-it-going/id885669136?ls=1&mt=8"] {
   .modal-dialog {
     width: 400px;
   }
-}
-
-.hidden {
-  display: none;
 }
 
 .carousel-control.right, .carousel-control.left {
@@ -199,8 +197,7 @@ a[href="https://itunes.apple.com/nz/app/hows-it-going/id885669136?ls=1&mt=8"] {
     /*-webkit-transition: all .7s ease-in-out;
     -moz-transition: all .7s ease-in-out;
     -o-transition: all .7s ease-in-out;
-    -ms-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;*/
+    -ms-transition: all .7s ease-in-out;*/
     transition: ease-in-out box-shadow .3s;
     overflow: auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
@@ -209,6 +206,29 @@ a[href="https://itunes.apple.com/nz/app/hows-it-going/id885669136?ls=1&mt=8"] {
 .carousel-control .slide-button:hover {
     opacity: 1.0;
     box-shadow: 2px 8px 8px 0 rgba(0,0,0,0.2),2px 9px 10px 0 rgba(0,0,0,0.19);
+}
+
+button.close {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    line-height: 24px;
+    background-color: #d84d4d;
+    opacity: 1.0;
+    text-shadow: none;
+    color: white;
+    transition: ease-in-out box-shadow .3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.close:focus, .close:hover {
+    box-shadow: 2px 8px 8px 0 rgba(0,0,0,0.2),2px 9px 10px 0 rgba(0,0,0,0.19);
+    color: white;
+    opacity: 1.0;
+    outline: none;
 }
 
 #portfolio p {
