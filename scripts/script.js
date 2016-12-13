@@ -81,4 +81,17 @@ $('div[data-target="#myModal"]').click(function(){
     return true;
   });
 
+  $('#video-modal').on('show.bs.modal', function (e) {
+    var video = $('video')[0];
+    video.play();
+  });
+
+  // Reset video playback on carousel close.
+  $('#video-modal').on('hide.bs.modal', function (e) {
+    var video = $('video')[0];
+    video.pause();
+    video.currentTime = 0;
+    video.load();
+  }); 
+
 })

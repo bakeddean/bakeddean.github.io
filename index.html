@@ -99,7 +99,7 @@
     <h2 class ="text-center">Portfolio</h2>
     <div class="row text-center scale-anim"> 
       <div class="col-sm-3">
-        <div class="thumbnail hover-shadow" data-toggle="modal" data-target="#myModal">
+        <div class="thumbnail hover-shadow" data-toggle="modal" data-target="#video-modal">
           <img src="images/junction/hutt.jpeg" alt="Junction" width="400" height="300">
           <img src="images/junction/meeting.jpeg" alt="Junction" width="400" height="300" class="hidden">
           <img src="images/junction/meeting-options.jpeg" alt="Junction" width="400" height="300" class="hidden">
@@ -154,7 +154,20 @@
     </div>
   </div>
 
-  <!-- Modal -->
+  <!-- Video modal -->
+  <div class="modal fade" id="video-modal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <video controls name="media"><source src="videos/junction.mp4" type="video/mp4"></video>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Static image modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
@@ -177,8 +190,10 @@
           </div>
         </div>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
     </div>
   </div>
+
 </section>
 
 <!-- Employment -->
