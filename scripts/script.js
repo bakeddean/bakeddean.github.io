@@ -82,7 +82,11 @@ $('div[data-target="#myModal"]').click(function(){
   });
 
   $('#video-modal').on('show.bs.modal', function (e) {
+    var div = $(e.relatedTarget) // Div that triggered the modal
+    var videoSrc = div.data('video') // Extract source url from data-* attributes
     var video = $('video')[0];
+    video.src = videoSrc; 
+    video.load();
     video.play();
   });
 
