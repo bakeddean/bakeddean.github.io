@@ -35,6 +35,10 @@ section {
   display: none;
 }
 
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration: none;
+}
+
 /*---------------------------------------------------------------------------*/
 /* Navbar                                                                    */
 /*---------------------------------------------------------------------------*/
@@ -285,7 +289,6 @@ video {
 
 .contact-link:hover {
   color: #00aae5 !important;
-  text-decoration: none;
 }
 
 .form-control {
