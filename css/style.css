@@ -4,6 +4,12 @@ body {
     line-height: 1.8;
     color: #303030;
 }
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
 h2 {
     font-size: 24px;
     color: #303030;
@@ -83,6 +89,11 @@ a, a:hover, a:active, a:visited, a:focus {
 .grayscale-filter {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.jumbotron h1 {
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -261,7 +272,7 @@ video {
 }
 
 #employment img {
-  margin-top: 15px;
+  margin-top: 25px;
   width: 65px;
   height: 65px;
   border-radius: 6px;
@@ -273,6 +284,8 @@ video {
 
 #interests p {
   text-align: left;
+  padding-left: 25px;
+  padding-right: 50px;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -374,7 +387,7 @@ footer {
   cursor: pointer;
   white-space: nowrap;
   font-size: 0.8em;
-  margin-left: 15px;
+  margin-right: 20px;
   border-radius: 0;
 }
 
