@@ -73,7 +73,7 @@ a, a:hover, a:active, a:visited, a:focus {
 /*---------------------------------------------------------------------------*/
 
 .jumbotron {
-    background-color: #18294D;
+    background-image: linear-gradient(#18294d, #01aae5);
     color: #fff;
     padding: 100px 25px 50px 25px;
     font-family: Montserrat, sans-serif;
