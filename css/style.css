@@ -2,7 +2,7 @@
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #303030;
 }
 h2 {
     font-size: 24px;
@@ -15,7 +15,11 @@ h4 {
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+h6 {
+  color: #818181;
 }
 
 .container-fluid {
@@ -276,7 +280,7 @@ video {
 
 .contact-link {
   text-decoration: none;
-  color: #818181;
+  color: #303030;
 }
 
 .contact-link:hover {
